@@ -69,7 +69,7 @@ body {
 .body-row-1-column-2-body {
   font-size: 18px;
   color: #999999;
-  padding-bottom: 8px;
+  padding-bottom: 16px;
 }
 
 .body-row-1-column-2-footer-button {
@@ -85,11 +85,15 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 200px;
-  width: 200px;
+  height: 348px;
+  width: 464px;
   flex: 1 1 400px;
-  background-color: #999999;
   color: #F9FAF8;
+}
+
+.body-row-1-column-3-image {
+  height: 100%;
+  width: 100%;
 }
 
 .body-row-1-column-4 {
@@ -127,8 +131,8 @@ body {
 .body-row-2-body-card-image {
   border: 2px solid #3882F6;
   border-radius: 8px;
-  height: 100px;
-  width: 100px;
+  height: 200px;
+  width: 200px;
   justify-content: center;
   align-items: center;
   margin-bottom: 8px;
